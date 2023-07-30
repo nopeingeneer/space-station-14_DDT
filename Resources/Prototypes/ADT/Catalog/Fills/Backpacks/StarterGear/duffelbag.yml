@@ -19,3 +19,15 @@
       - id: WeaponRifleAk
       - id: MagazineLightRifle
         amount: 2
+
+- type: entity
+  parent: ClothingBackpackDuffelSyndicateAmmoBundle
+  id: ADTClothingBackpackDuffelSyndicateFilledHristov
+  name: Hristov bundle
+  description: "Old faithful: The classic C-20r Submachine Gun, bundled with three magazines." #, and a Suppressor.
+  components:
+  - type: StorageFill
+    contents:
+      - id: ADTWeaponSniperHristovII
+      - id: ADTMagazineHriII
+        amount: 3

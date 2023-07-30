@@ -41,3 +41,19 @@
     Telecrystal: 4
   categories:
   - UplinkAmmo
+
+- type: listing
+  id: ADTUplinkadvansedHristov
+  name: uplink-Hristov-bundle-name
+  description: uplink-hrisov-bundle-desc
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Snipers/heavy_sniper.rsi, state: base }
+  productEntity: ADTClothingBackpackDuffelSyndicateFilledHristov
+  cost:
+    Telecrystal: 20
+  categories:
+  - UplinkBundles
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
