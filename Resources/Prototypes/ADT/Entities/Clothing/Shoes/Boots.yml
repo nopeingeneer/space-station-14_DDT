@@ -36,3 +36,15 @@
   - type: Clothing
     sprite: ADT/Clothing/Shoes/Boots/gold_heels.rsi
   - type: NoSlip
+
+#nope_ingeneer
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ADTClothingRedjiShoes
+  name: Stylish shoes
+  description: pair of stylish shoes
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Shoes/Boots/redji_shoes.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Shoes/Boots/redji_shoes.rsi

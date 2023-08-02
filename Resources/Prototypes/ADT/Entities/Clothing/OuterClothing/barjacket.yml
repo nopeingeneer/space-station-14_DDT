@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ADTClothingOuterJacketBartender
+  name: Bartender jacket
+  description: An apron-jacket used by a high class chef.
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/OuterClothing/Jackets/barjacket.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/OuterClothing/Jackets/barjacket.rsi
