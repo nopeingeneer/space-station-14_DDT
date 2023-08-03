@@ -1,0 +1,80 @@
+- type: marking
+  id: AugmentsRoboticArmRight
+  bodyPart: RArm
+  markingCategory: Arms
+  sponsorOnly: false
+  sprites:
+    - sprite: ADT/Mobs/Customization/augments.rsi
+      state: r_roboarm
+
+- type: marking
+  id: AugmentsRoboticHandRigh
+  bodyPart: RHand
+  markingCategory: Arms
+  sponsorOnly: true
+  sprites:
+    - sprite: ADT/Mobs/Customization/augments.rsi
+      state: r_robohand
+
+- type: marking
+  id: AugmentsRoboticArmLeft
+  bodyPart: LArm
+  markingCategory: Arms
+  sponsorOnly: false
+  sprites:
+    - sprite: ADT/Mobs/Customization/augments.rsi
+      state: l_roboarm
+
+- type: marking
+  id: AugmentsRoboticHandLeft
+  bodyPart: LHand
+  markingCategory: Arms
+  sponsorOnly: true
+  sprites:
+    - sprite: ADT/Mobs/Customization/augments.rsi
+      state: l_robohand
+
+- type: marking
+  id: AugmentsRoboticTorso
+  bodyPart: Chest
+  markingCategory: Chest
+  sponsorOnly: true
+  sprites:
+    - sprite: ADT/Mobs/Customization/augments.rsi
+      state: robotorso_m
+
+- type: marking
+  id: AugmentsRoboticLegRight
+  bodyPart: RLeg
+  markingCategory: Legs
+  sponsorOnly: false
+  sprites:
+    - sprite: ADT/Mobs/Customization/augments.rsi
+      state: r_roboleg
+
+- type: marking
+  id: AugmentsRoboticFootRight
+  bodyPart: RFoot
+  markingCategory: Legs
+  sponsorOnly: true
+  sprites:
+    - sprite: ADT/Mobs/Customization/augments.rsi
+      state: r_robofoot
+
+- type: marking
+  id: AugmentsRoboticLegLeft
+  bodyPart: LLeg
+  markingCategory: Legs
+  sponsorOnly: false
+  sprites:
+    - sprite: ADT/Mobs/Customization/augments.rsi
+      state: l_roboleg
+
+- type: marking
+  id: AugmentsRoboticFootLeft
+  bodyPart: LFoot
+  markingCategory: Legs
+  sponsorOnly: true
+  sprites:
+    - sprite: ADT/Mobs/Customization/augments.rsi
+      state: l_robofoot
