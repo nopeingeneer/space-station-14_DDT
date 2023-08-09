@@ -20,4 +20,8 @@
 
 - type: stationGoal
   id: StationGoalZoo
-  text: station-goal-zoo
+  text:   station-goal-zoo
+
+- type: stationGoal
+  id: stationgoalbiggerdorms
+  text:   station-goal-biggerdorms
