@@ -163,6 +163,9 @@
   parent: BaseBullet
   noSpawn: true
   components:
+  - type: Reflective
+    reflective:
+    - Energy
   - type: FlyBySound
     sound:
       collection: EnergyMiss
@@ -195,8 +198,9 @@
     soundHit:
       path: "/Audio/Weapons/Guns/Hits/taser_hit.ogg"
     soundForce: true
-  - type: StaminaDamageOnCollide
-    damage: 50
+  - type: StunOnCollide
+    stunAmount: 0.5
+    knockdownAmount: 0.5
 
 - type: entity
   name : disabler bolt
@@ -247,6 +251,9 @@
   parent: BaseBullet
   noSpawn: true
   components:
+  - type: Reflective
+    reflective:
+    - Energy
   - type: FlyBySound
     sound:
       collection: EnergyMiss
@@ -287,6 +294,9 @@
   parent: BaseBullet
   noSpawn: true
   components:
+  - type: Reflective
+    reflective:
+    - Energy
   - type: Sprite
 #    color: "#ffff33" # Corvax-Resprite
     sprite: Structures/Power/Generation/Singularity/emitter.rsi
@@ -325,8 +335,6 @@
   description: Not too bad, but you still don't want to get hit by it.
   components:
   - type: Reflective
-    reflective:
-      - NonEnergy
   - type: Sprite
     noRot: false
     sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
@@ -366,8 +374,8 @@
         - MobState
     damage:
       types:
-        Blunt: 20
-        Slash: 5
+        Blunt: 40
+        Slash: 10
   - type: Projectile
     impactEffect: BulletImpactEffectKinetic
     damage:

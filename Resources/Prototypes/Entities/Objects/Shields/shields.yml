@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   name: base shield
   parent: BaseItem
   id: BaseShield
@@ -373,13 +373,13 @@
       thresholds:
         - trigger:
             !type:DamageTrigger
-            damage: 180
+            damage: 250
           behaviors:
             - !type:DoActsBehavior
               acts: [ "Destruction" ]
         - trigger:
             !type:DamageTrigger
-            damage: 150
+            damage: 200
           behaviors:
             - !type:DoActsBehavior
               acts: [ "Destruction" ]
