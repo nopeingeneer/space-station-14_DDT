@@ -87,10 +87,10 @@
     outputPressure: 21.3
     air:
       # 2 minutes of thrust
-      volume: 1.5
+      volume: 3
       temperature: 293.15
       moles:
-        - 0.153853429 # oxygen
+        - 1,230827432 # oxygen
   - type: ActivatableUI
     key: enum.SharedGasTankUiKey.Key
   - type: UserInterface

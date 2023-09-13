@@ -32,6 +32,7 @@
   - CartridgeRifleIncendiary
   - MagazineBoxPistolIncendiary
   - MagazineBoxMagnumIncendiary
+  - MagazineBox367Incendiary
   - MagazineBoxLightRifleIncendiary
   - MagazineBoxRifleIncendiary
 
@@ -80,6 +81,7 @@
   - CartridgeMagnumRubber
   - CartridgeLightRifleRubber
   - CartridgeRifleRubber
+  - SpeedLoader357Rubber
   - MagazineBoxPistolRubber
   - MagazineBoxMagnumRubber
   - MagazineBoxLightRifleRubber
