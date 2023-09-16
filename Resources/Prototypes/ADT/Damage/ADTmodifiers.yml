@@ -17,7 +17,7 @@
     Cold: 1.5
     Heat: 0.9
     Poison: 1
-    Bloodloss: 0.6
+    Bloodloss: 0.3
 
 - type: damageModifierSet
   id: Demon # они вообще то мутанты, но кого ебёт так?
