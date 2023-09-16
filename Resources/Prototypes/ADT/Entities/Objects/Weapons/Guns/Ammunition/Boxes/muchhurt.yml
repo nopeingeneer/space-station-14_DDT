@@ -26,7 +26,7 @@
 # Boxes
 - type: entity
   parent: BaseMagazineBox357
-  id: MagazineBox347
+  id: MagazineBox357
   name: ammunition box (.357 magnum)
   components:
   - type: BallisticAmmoProvider

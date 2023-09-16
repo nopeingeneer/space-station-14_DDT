@@ -24,6 +24,9 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { "яхз", "chatsan-shrugs" },
         { ":О", "chatsan-surprised" }, // cyrillic о
         { ":р", "chatsan-stick-out-tongue" }, // cyrillic р
+        { "пупупу", "chatsan-sighs" },
+        { "пу пу пу", "chatsan-sighs" },
+        { "пу-пу-пу", "chatsan-sighs" },
         // Corvax-Localization-End
         // I could've done this with regex, but felt it wasn't the right idea.
         { ":)", "chatsan-smiles" },
